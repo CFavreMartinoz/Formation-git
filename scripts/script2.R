@@ -1,5 +1,8 @@
 #generation d'une loi normale
 
-norm<-rnorm(10000000,0,1)
-quantile(norm)
+norm<-rnorm(1000,0,1)
+
 hist(norm)
+
+
+plot(norm)
